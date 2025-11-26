@@ -299,7 +299,6 @@ export const ValuesEditor = ({ model, onChange }: Props) => {
                       className={styles.field}
                     >
                       <Collapse
-                        // headerTestId={TEST_IDS.valuesEditor.itemHeader(row.id)}
                         isOpen={collapseState[row.id]}
                         onToggle={() => onToggleItem(row)}
                         label={

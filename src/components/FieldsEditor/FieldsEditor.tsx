@@ -351,7 +351,6 @@ export const FieldsEditor = ({ model, onChange }: Props) => {
                       data-testid={TEST_IDS.fieldsEditor.item}
                     >
                       <Collapse
-                        // headerTestId={TEST_IDS.fieldsEditor.itemHeader(field.id)}
                         isOpen={collapseState[field.id]}
                         onToggle={() => onToggleItem(field)}
                         label={
