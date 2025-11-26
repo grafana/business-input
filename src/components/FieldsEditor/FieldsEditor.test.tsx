@@ -72,16 +72,16 @@ describe('Editor', () => {
    * Open Item
    * @param id
    */
-  const openItem = (id: string): ReturnType<typeof getSelectors> => {
+  const openItem = (id: string, label: string): ReturnType<typeof getSelectors> => {
     /**
      * Check item presence
      */
-    expect(selectors.itemHeader(false, id)).toBeInTheDocument();
+    expect(screen.getByText(label)).toBeInTheDocument();
 
     /**
      * Make Item is opened
      */
-    fireEvent.click(selectors.itemHeader(false, id));
+    fireEvent.click(screen.getByText(label));
 
     /**
      * Check if item content exists
@@ -167,8 +167,8 @@ describe('Editor', () => {
     );
 
     expect(selectors.root()).toBeInTheDocument();
-    expect(selectors.itemHeader(false, '12')).toBeInTheDocument();
-    expect(selectors.itemHeader(false, '13')).toBeInTheDocument();
+    expect(screen.getByText('name [string]')).toBeInTheDocument();
+    expect(screen.getByText('amount [number]')).toBeInTheDocument();
   });
 
   it('Should change name', () => {
@@ -192,8 +192,8 @@ describe('Editor', () => {
       })
     );
 
-    const item = openItem(field1.id);
-    const item2 = openItem(field2.id);
+    const item = openItem(field1.id, 'name [string]');
+    const item2 = openItem(field2.id, 'amount [number]');
     fireEvent.change(item.fieldName(), { target: { value: 'Name New' } });
 
     const items = screen.getAllByTestId(TEST_IDS.fieldsEditor.fieldName);
@@ -224,7 +224,7 @@ describe('Editor', () => {
         },
       })
     );
-    openItem(field1.id);
+    openItem(field1.id, 'name [string]');
     const items = screen.getAllByTestId(TEST_IDS.fieldsEditor.item);
     expect(items[0]).toBeInTheDocument();
 
@@ -288,7 +288,7 @@ describe('Editor', () => {
     const { rerender } = render(getComponent(value));
 
     expect(selectors.root()).toBeInTheDocument();
-    const item = selectors.itemHeader(false, '12');
+    const item = screen.getByText('name [string]');
 
     fireEvent.click(getSelectors(within(item)).buttonRemove());
 
@@ -340,8 +340,8 @@ describe('Editor', () => {
 
     const items = screen.getAllByTestId(TEST_IDS.fieldsEditor.item);
 
-    expect(getSelectors(within(items[0])).itemHeader(false, '13')).toBeInTheDocument();
-    expect(getSelectors(within(items[1])).itemHeader(false, '12')).toBeInTheDocument();
+    expect(within(items[0]).getByText('Drag Key 2 [number]')).toBeInTheDocument();
+    expect(within(items[1]).getByText('Drag Key [string]')).toBeInTheDocument();
   });
 
   it('Should not reorder items if drop outside the list', async () => {
@@ -384,8 +384,8 @@ describe('Editor', () => {
     );
     const items = screen.getAllByTestId(TEST_IDS.fieldsEditor.item);
 
-    expect(getSelectors(within(items[0])).itemHeader(false, '12')).toBeInTheDocument();
-    expect(getSelectors(within(items[1])).itemHeader(false, '13')).toBeInTheDocument();
+    expect(within(items[0]).getByText('Drag Key [string]')).toBeInTheDocument();
+    expect(within(items[1]).getByText('Drag Key 2 [number]')).toBeInTheDocument();
   });
 
   it('Should expand/collapse all fields', () => {
