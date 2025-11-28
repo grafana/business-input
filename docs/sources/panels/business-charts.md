@@ -12,12 +12,12 @@ labels:
 
 # Business Charts
 
-You can use the Business Input data source to test the [Business Charts panel](/plugins/business-charts/). The following examples show how to create values:
+You can use the Business Input data source to test the [Business Charts panel](https://grafana.com/docs/plugins/volkovlabs-echarts-panel/<PLUGINS_VERSION>/). The following examples show how to create values:
 
 - Manually
 - By using the **JavaScript Values Editor**
 
-Both examples use the Business Charts [**Visual Editor**](/plugins/business-charts/visualeditor/) to read the data frame values and pass them to the Business Charts.
+Both examples use the Business Charts [Visual Editor](https://grafana.com/docs/plugins/volkovlabs-echarts-panel/<PLUGINS_VERSION>/visualeditor/) to read the data frame values and pass them to the Business Charts.
 
 {{< admonition type="note" >}}
 You can use the Business Charts demo project to play with both the Business Input data source settings and the Business Charts parameters following the link [Business Charts Pie examples](https://echarts.volkovlabs.io/d/0b5-q7K4k/pie?orgId=1). Go to Edit mode and start experimenting.

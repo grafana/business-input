@@ -22,8 +22,8 @@ You can use the Business Charts demo project to play with the Static Data source
 
 | Section                            | Demonstrates                                           |
 | ---------------------------------- | ------------------------------------------------------ |
-| [Business Charts](business-charts) | How to use the Static data source with the Business Charts panel. |
-| [Business Media](image)            | How to use the Static data source with the Business Media panel.  |
-| [Logs](logs)                       | How to use the Static data source with the Logs panel.            |
-| [Node Graph](graph)                | How to use the Static data source with the Node Graph panel.      |
-| [Pie Chart](pie)                   | How to use the Static data source with the Pie chart panel.       |
+| [Business Charts](https://grafana.com/docs/plugins/marcusolsson-static-datasource/<PLUGINS_VERSION>/panels/business-charts/) | How to use the Static data source with the Business Charts panel. |
+| [Business Media](https://grafana.com/docs/plugins/marcusolsson-static-datasource/<PLUGINS_VERSION>/panels/business-media/)            | How to use the Static data source with the Business Media panel.  |
+| [Logs](https://grafana.com/docs/plugins/marcusolsson-static-datasource/<PLUGINS_VERSION>/panels/logs/)                       | How to use the Static data source with the Logs panel.            |
+| [Node Graph](https://grafana.com/docs/plugins/marcusolsson-static-datasource/<PLUGINS_VERSION>/panels/node-graph/)                | How to use the Static data source with the Node Graph panel.      |
+| [Pie Chart](https://grafana.com/docs/plugins/marcusolsson-static-datasource/<PLUGINS_VERSION>/panels/pie/)                   | How to use the Static data source with the Pie chart panel.       |

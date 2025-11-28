@@ -38,7 +38,7 @@ grafana cli plugins install marcusolsson-static-datasource
 ## Highlights
 
 - Create static visualizations that do not depend on a specific data source.
-- Specify values [manually or by using the **JavaScript Values Editor**](/plugins/business-input/panels/business-charts/).
+- Specify values [manually or by using the JavaScript Values Editor](https://grafana.com/docs/plugins/marcusolsson-static-datasource/<PLUGINS_VERSION>/panels/business-charts/).
 - Generate data with OpenAI and LLM App.
 - Build custom query responses for testing or developing panel plugins.
 - Store data and images directly in the dashboard.
@@ -62,11 +62,11 @@ The video references the plugin using its old name.
 
 | Section                      | Description                                                  |
 | ---------------------------- | ------------------------------------------------------------ |
-| [Provisioning](provisioning) | Learn how to automatically provision the data source. |
-| [Variables](variables)       | Learn how to use variables.                           |
-| [Panels](panels)             | Learn how to use the data source with panels.             |
-| [Release Notes](release)     | Stay up to date with the latest features and updates.        |
+| [Provisioning](https://grafana.com/docs/plugins/marcusolsson-static-datasource/<PLUGINS_VERSION>/provisioning/) | Learn how to automatically provision the data source. |
+| [Variables](https://grafana.com/docs/plugins/marcusolsson-static-datasource/<PLUGINS_VERSION>/variables/)       | Learn how to use variables.                           |
+| [Panels](https://grafana.com/docs/plugins/marcusolsson-static-datasource/<PLUGINS_VERSION>/panels/)             | Learn how to use the data source with panels.             |
+| [Release notes](https://grafana.com/docs/plugins/marcusolsson-static-datasource/<PLUGINS_VERSION>/release/)     | Stay up to date with the latest features and updates.        |
 
 ## License
 
-Apache License Version 2.0, see [LICENSE](https://github.com/volkovlabs/business-input/blob/main/LICENSE).
+Apache License Version 2.0, see [LICENSE](https://github.com/grafana/business-input/blob/main/LICENSE).

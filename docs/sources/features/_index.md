@@ -17,5 +17,5 @@ The Business Input data source provides an extensive set of features.
 
 | Section                             | Description                                                  |
 | ----------------------------------- | ------------------------------------------------------------ |
-| [JavaScript Values Editor](../code) | Learn how to use the JavaScript Values Editor.                |
-| [LLM App and OpenAI](../llm-app)    | Learn how to use the data source with LLM App and OpenAI. |
+| [JavaScript Values Editor](https://grafana.com/docs/plugins/marcusolsson-static-datasource/<PLUGINS_VERSION>/features/javascript/) | Learn how to use the JavaScript Values Editor.                |
+| [LLM App and OpenAI](https://grafana.com/docs/plugins/marcusolsson-static-datasource/<PLUGINS_VERSION>/features/llm-app/)    | Learn how to use the data source with LLM App and OpenAI. |
