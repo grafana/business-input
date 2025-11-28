@@ -1,0 +1,26 @@
+---
+tags:
+  - Business Input
+title: 'Logs'
+description: 'Learn about Logs in Grafana'
+labels:
+  products:
+    - enterprise
+    - oss
+---
+import Image from "@theme/Image";
+
+# Logs
+
+You can use the Static data source to test panels for logs.
+
+## Fields
+
+- Time field `time` to store UTC timestamp.
+- String field `message` for the text message.
+- String field `level` to defined log level: `info`, `error`, etc.
+
+<Image
+  title="Logs panels to display static logs for development."
+  src="/img/plugins/business-input/logs.png"
+/>

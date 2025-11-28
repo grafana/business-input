@@ -1,0 +1,28 @@
+---
+tags:
+  - Business Input
+title: 'Static Data Source with panels'
+menuTitle: Panels
+description: 'Learn about Static Data Source with panels in Grafana'
+labels:
+  products:
+    - enterprise
+    - oss
+    weight: 50
+---
+
+# Static Data Source with panels
+
+Below are examples of using the Static Data Source with various native and custom Grafana panels.
+
+:::info Business Charts Examples
+You can use our Business Charts demo project to play with the Static Data source settings and various native and community plugins following the link [Business Charts Examples](https://echarts.volkovlabs.io). Go to Edit mode and start experimenting!
+:::
+
+| Section                            | Demonstrates                                           |
+| ---------------------------------- | ------------------------------------------------------ |
+| [Business Charts](business-charts) | The Static Data Source with the Business Charts panel. |
+| [Business Media](image)            | The Static Data Source with the Business Media panel.  |
+| [Logs](logs)                       | The Static Data Source with the Logs panel.            |
+| [Node Graph](graph)                | The Static Data Source with the Node Graph panel.      |
+| [Pie Chart](pie)                   | The Static Data Source with the Pie chart panel.       |
