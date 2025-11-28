@@ -2,7 +2,7 @@
 tags:
   - Business Input
 title: 'Logs'
-description: 'Learn about Logs in Grafana'
+description: 'Learn how to create static log data for testing logs panels in Grafana.'
 labels:
   products:
     - enterprise

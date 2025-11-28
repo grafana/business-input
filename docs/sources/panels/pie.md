@@ -2,7 +2,7 @@
 tags:
   - Business Input
 title: 'Pie Chart'
-description: 'Learn about Pie Chart in Grafana'
+description: 'Learn how to create category data for testing pie chart panels in Grafana.'
 labels:
   products:
     - enterprise

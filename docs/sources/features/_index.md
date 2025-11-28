@@ -2,7 +2,7 @@
 tags:
   - Business Input
 title: 'Features'
-description: 'Learn about Features in Grafana'
+description: 'Learn about the JavaScript Values Editor and LLM App integration features in the Business Input data source.'
 labels:
   products:
     - enterprise

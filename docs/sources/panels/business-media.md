@@ -2,7 +2,7 @@
 tags:
   - Business Input
 title: 'Business Media'
-description: 'Learn about Business Media in Grafana'
+description: 'Learn how to store base64-encoded media files in Grafana dashboards using the Business Input data source.'
 labels:
   products:
     - enterprise

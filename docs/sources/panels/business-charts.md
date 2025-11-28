@@ -2,7 +2,7 @@
 tags:
   - Business Input
 title: 'Business Charts'
-description: 'Learn about Business Charts in Grafana'
+description: 'Learn how to create data for the Business Charts panel using manual values or the JavaScript Values Editor.'
 labels:
   products:
     - enterprise

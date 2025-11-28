@@ -2,7 +2,7 @@
 tags:
   - Business Input
 title: 'Node Graph'
-description: 'Learn about Node Graph in Grafana'
+description: 'Learn how to create node and edge data for testing the Node Graph panel in Grafana.'
 labels:
   products:
     - enterprise

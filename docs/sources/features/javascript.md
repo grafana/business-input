@@ -2,7 +2,7 @@
 tags:
   - Business Input
 title: 'JavaScript Values Editor'
-description: 'Learn about JavaScript Values Editor in Grafana'
+description: 'Learn how to use the JavaScript Values Editor to generate data frames and import external libraries.'
 labels:
   products:
     - enterprise

@@ -3,7 +3,7 @@ tags:
   - Business Input
   - Variables
 title: 'Variables'
-description: 'Learn about Variables in Grafana'
+description: 'Learn how to use dashboard and global variables in the Business Input data source string fields.'
 labels:
   products:
     - enterprise

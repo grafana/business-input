@@ -2,7 +2,7 @@
 tags:
   - Business Input
 title: 'Business Input'
-description: 'Learn about Business Input in Grafana'
+description: 'Learn how to store and emulate data in Grafana using the Business Input data source plugin.'
 labels:
   products:
     - enterprise

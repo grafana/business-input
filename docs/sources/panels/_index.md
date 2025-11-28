@@ -3,7 +3,7 @@ tags:
   - Business Input
 title: 'Static Data Source with panels'
 menuTitle: Panels
-description: 'Learn about Static Data Source with panels in Grafana'
+description: 'Learn how to use the Business Input data source with various native and custom Grafana panels.'
 labels:
   products:
     - enterprise

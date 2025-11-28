@@ -3,7 +3,7 @@ tags:
   - Business Input
   - LLM
 title: 'LLM App and OpenAI'
-description: 'Learn about LLM App and OpenAI in Grafana'
+description: 'Learn how to generate data using LLM models and OpenAI integration with the Business Input data source.'
 labels:
   products:
     - enterprise
