@@ -27,10 +27,7 @@ The Business Input data source is a plugin for Grafana that allows storing and e
 
 The Business Input data source can be installed from the [Grafana Catalog](https://grafana.com/grafana/plugins/marcusolsson-static-datasource/) or utilizing the Grafana command line tool.
 
-<Youtube
-  id="1qYzHfPXJF8"
-  title="Install Business Suite plugins in Cloud, OSS, Enterprise. Getting started with the Business Suite."
-/>
+{{< youtube id="1qYzHfPXJF8" >}}
 
 For the latter, please use the following command.
 
@@ -60,11 +57,7 @@ In this 6-minute tutorial, Daria explains what the plugin does. She demonstrates
 
 Daria still references the plugin using its old name. The newer version of the plugin review video is in the works and will be published as soon as it is available.
 
-<Youtube
-  id="QOV8ECOUjWs"
-  title="Mimic any data with the Business Input data source."
-/>
-
+{{< youtube id="QOV8ECOUjWs" >}}
 
 ## Documentation
 
@@ -78,4 +71,3 @@ Daria still references the plugin using its old name. The newer version of the p
 ## License
 
 Apache License Version 2.0, see [LICENSE](https://github.com/volkovlabs/business-input/blob/main/LICENSE).
-
