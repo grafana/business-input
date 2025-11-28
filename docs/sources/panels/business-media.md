@@ -15,11 +15,11 @@ labels:
 You can use the Static data source to store any supported base64-encoded media files on your Grafana dashboard.
 
 {{< admonition type="note" >}}
-The Static Data Source is an excellent solution for not huge sizes. If you get a `413 Request Entity Too Long` error, the Grafana limit is reached.
+The Static data source works well for files that are not too large. If you receive a `413 Request Entity Too Large` error, you have reached the Grafana limit.
 
-In this case, consider using a database/storage data source. [PostgreSQL is a good choice](/blog/grafana-postgresql-20230123/).
+In this case, consider using a database or storage data source. [PostgreSQL is a good choice](/blog/grafana-postgresql-20230123/).
 {{< /admonition >}}
 
 ## Fields
 
-String field `img` to store a base64 encoded media file with or without definition `data:image/IMAGE-FORMAT;base64,ENCODED-CONTENT`.
+Use the String field `img` to store a base64-encoded media file. You can include the definition `data:image/IMAGE-FORMAT;base64,ENCODED-CONTENT` or omit it.

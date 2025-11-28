@@ -17,5 +17,5 @@ The Business Input data source provides an extensive set of features.
 
 | Section                             | Description                                                  |
 | ----------------------------------- | ------------------------------------------------------------ |
-| [JavaScript Values Editor](../code) | Explains how to use JavaScript Values Editor.                |
-| [LLM App and OpenAI](../llm-app)    | Explains how to use the Data Source with LLM App and OpenAI. |
+| [JavaScript Values Editor](../code) | Learn how to use the JavaScript Values Editor.                |
+| [LLM App and OpenAI](../llm-app)    | Learn how to use the data source with LLM App and OpenAI. |

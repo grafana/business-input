@@ -14,13 +14,13 @@ weight: 30
 
 # Variables
 
-The Business Input Data Source supports dashboard and global variables in the String fields.
+The Business Input data source supports dashboard and global variables in String fields.
 
-Three types of variables are discussed in the [Grafana Crash Course](/grafana/variables).
+The [Grafana Crash Course](/grafana/variables) discusses three types of variables.
 
 ## Code editor
 
-Create new `custom` variable:
+To get started, create a new `custom` variable:
 
 ```js
 2022-02-10T00:00:00.000Z,
@@ -30,9 +30,10 @@ Create new `custom` variable:
 
 {{< figure src="/media/docs/grafana/panels-visualizations/business-input/1st-variable.png" class="border" alt="Variable `from`" >}}
 
-- Create another variable related to the first variable using the `Business Input Data Source` and `Code editor` variable type `Query`. Query options > Data source > `Static`.
-- Take the value of the `from` variable and add 7 days to it for each iteration.
-- Use `${variable_name}` syntax to use your variable in code.
+1. Create another variable that relates to the first variable. Use the `Business Input Data Source` and set the variable type to `Query` with the `Code editor`.
+1. In Query options, set the Data source to `Static`.
+1. In the code, take the value of the `from` variable and add 7 days to it for each iteration.
+1. Use the `${variable_name}` syntax to reference your variable in code.
 
 ### Code
 
@@ -57,7 +58,7 @@ return Promise.resolve(result);
 
 {{< figure src="/media/docs/grafana/panels-visualizations/business-input/2nd-variable.png" class="border" alt="Fill values for variable." >}}
 
-Values for `to` variable will be:
+The `to` variable will have the following values:
 
 ```js
 2022-02-17T00:00:00.000Z
@@ -65,7 +66,7 @@ Values for `to` variable will be:
 2022-03-03T00:00:00.000Z
 ```
 
-Now every change value for variable `from` change values and for variable `to`:
+When you change the value of the `from` variable, the values of the `to` variable also change:
 
 {{< figure src="/media/docs/grafana/panels-visualizations/business-input/variable-reference.png" class="border" alt="Change of From variable will update variable To." >}}
 
@@ -73,6 +74,6 @@ Now every change value for variable `from` change values and for variable `to`:
 
 ## Manual editor
 
-Variable can be used in `Manual editor`. Use `$variable_name` syntax in input field.
+You can use variables in the `Manual editor`. Use the `$variable_name` syntax in the input field.
 
 {{< figure src="/media/docs/grafana/panels-visualizations/business-input/manual-editor-variable.png" class="border" alt="Variable in Manual Editor." >}}

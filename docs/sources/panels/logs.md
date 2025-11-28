@@ -16,8 +16,8 @@ You can use the Static data source to test panels for logs.
 
 ## Fields
 
-- Time field `time` to store UTC timestamp.
-- String field `message` for the text message.
-- String field `level` to defined log level: `info`, `error`, etc.
+- Use the Time field `time` to store a UTC timestamp.
+- Use the String field `message` for the text message.
+- Use the String field `level` to define the log level: `info`, `error`, and so on.
 
 {{< figure src="/media/docs/grafana/panels-visualizations/business-input/logs.png" class="border" alt="Logs panels to display static logs for development." >}}

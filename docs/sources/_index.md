@@ -25,11 +25,11 @@ The Business Input data source is a plugin for Grafana that allows storing and e
 
 ## Getting started
 
-The Business Input data source can be installed from the [Grafana Catalog](https://grafana.com/grafana/plugins/marcusolsson-static-datasource/) or utilizing the Grafana command line tool.
+You can install the Business Input data source from the [Grafana Catalog](https://grafana.com/grafana/plugins/marcusolsson-static-datasource/) or by using the Grafana command line tool.
 
 {{< youtube id="1qYzHfPXJF8" >}}
 
-For the latter, please use the following command.
+To install using the command line tool, run the following command:
 
 ```sh
 grafana cli plugins install marcusolsson-static-datasource
@@ -37,22 +37,24 @@ grafana cli plugins install marcusolsson-static-datasource
 
 ## Highlights
 
-- Create static visualizations that don't depend on a specific data source.
-- Allows specifying values [manually or using the **JavaScript Values Editor**](/plugins/business-input/panels/business-charts/) code.
-- Allows to generate data with OpenAI and LLM App.
+- Create static visualizations that do not depend on a specific data source.
+- Specify values [manually or by using the **JavaScript Values Editor**](/plugins/business-input/panels/business-charts/).
+- Generate data with OpenAI and LLM App.
 - Build custom query responses for testing or developing panel plugins.
 - Store data and images directly in the dashboard.
-- Supports variables in the text fields.
-- Uses Number input for Number, Date Time Picker for Time fields.
-- Uses Text Area for String inputs with more than 100 symbols.
+- Use variables in text fields.
+- Use the Number input for Number fields and the Date Time Picker for Time fields.
+- Use the Text Area for String inputs with more than 100 characters.
 
 {{< figure src="/media/docs/grafana/panels-visualizations/business-input/dashboard.png" class="border" alt="Display Pie Charts based on the data from the Static Data Source." >}}
 
 ## Tutorial
 
-This six-minute tutorial explains what the plugin does. It demonstrates how to work with its parameters and use it for visualization panel discovery, data storage, and troubleshooting.
+This six-minute tutorial explains what the plugin does and demonstrates how to work with its parameters. You can use the plugin for visualization panel discovery, data storage, and troubleshooting.
 
-The video still references the plugin using its old name. The newer version of the plugin review video is in the works and will be published as soon as it is available.
+{{< admonition type="note" >}}
+The video references the plugin using its old name.
+{{< /admonition >}}
 
 {{< youtube id="QOV8ECOUjWs" >}}
 
@@ -60,9 +62,9 @@ The video still references the plugin using its old name. The newer version of t
 
 | Section                      | Description                                                  |
 | ---------------------------- | ------------------------------------------------------------ |
-| [Provisioning](provisioning) | Demonstrates how to automatically provision the Data Source. |
-| [Variables](variables)       | Demonstrates how to use variables.                           |
-| [Panels](panels)             | Demonstrates how to use data source with panels.             |
+| [Provisioning](provisioning) | Learn how to automatically provision the data source. |
+| [Variables](variables)       | Learn how to use variables.                           |
+| [Panels](panels)             | Learn how to use the data source with panels.             |
 | [Release Notes](release)     | Stay up to date with the latest features and updates.        |
 
 ## License

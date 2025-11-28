@@ -13,7 +13,7 @@ labels:
 # JavaScript Values Editor
 
 {{< admonition type="note" >}}
-JavaScript Values Editor must return a data frame.
+The JavaScript Values Editor must return a data frame.
 {{< /admonition >}}
 
 ```js

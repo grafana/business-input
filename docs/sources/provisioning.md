@@ -35,6 +35,6 @@ datasources:
 
 ## Data sources
 
-When provisioned, the Static data source should be available in the data sources list.
+After you provision the data source, it appears in the data sources list.
 
 {{< figure src="/media/docs/grafana/panels-visualizations/business-input/datasource.png" class="border" alt="Static Data source does not require any configuration." >}}

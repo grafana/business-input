@@ -12,12 +12,12 @@ labels:
 
 # Business Charts
 
-You can use the Business Input data source to test the [Business Charts panel](/plugins/business-charts/). Below are illustrations of how you can create values:
+You can use the Business Input data source to test the [Business Charts panel](/plugins/business-charts/). The following examples show how to create values:
 
-- Manually,
-- Using the **JavaScript Values Editor**.
+- Manually
+- By using the **JavaScript Values Editor**
 
-Please note, both examples use the Business Charts [**Visual Editor**](/plugins/business-charts/visualeditor/) to read the data frame values and pass them into the Business Charts.
+Both examples use the Business Charts [**Visual Editor**](/plugins/business-charts/visualeditor/) to read the data frame values and pass them to the Business Charts.
 
 {{< admonition type="note" >}}
 You can use the Business Charts demo project to play with both the Business Input data source settings and the Business Charts parameters following the link [Business Charts Pie examples](https://echarts.volkovlabs.io/d/0b5-q7K4k/pie?orgId=1). Go to Edit mode and start experimenting.
@@ -25,17 +25,17 @@ You can use the Business Charts demo project to play with both the Business Inpu
 
 ## Manual
 
-The Business Input data source can be used to add files and values manually.
+You can use the Business Input data source to add files and values manually.
 
 {{< figure src="/media/docs/grafana/panels-visualizations/business-input/bi-charts-pie-manual-editor.png" class="border" alt="The Business Charts Pie Chart using Manual mode." >}}
 
 ## JavaScript Values Editor
 
-Using the JavaScript **Values Editor** to generate data frame values.
+You can use the JavaScript **Values Editor** to generate data frame values.
 
 {{< figure src="/media/docs/grafana/panels-visualizations/business-input/bi-charts-pie-code-editor.png" class="border" alt="The Business Charts Pie Chart using JavaScript Code mode." >}}
 
-JavaScript code creating values for the the Business Input data source.
+The following JavaScript code creates values for the Business Input data source:
 
 ```javascript
 const values = [
