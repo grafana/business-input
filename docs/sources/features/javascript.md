@@ -1,10 +1,11 @@
 ---
-tags:
-  - Business Input
-title: 'JavaScript Values Editor'
-description: 'Learn how to use the JavaScript Values Editor to generate data frames and import external libraries.'
+title: JavaScript Values Editor
+description: Learn how to use the JavaScript Values Editor to generate data frames and import external libraries.
+keywords:
+  - business input
 labels:
   products:
+    - cloud
     - enterprise
     - oss
 ---

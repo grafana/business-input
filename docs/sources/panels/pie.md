@@ -1,10 +1,11 @@
 ---
-tags:
-  - Business Input
-title: 'Pie Chart'
-description: 'Learn how to create category data for testing pie chart panels in Grafana.'
+title: Pie Chart
+description: Learn how to create category data for testing pie chart panels in Grafana.
+keywords:
+  - business input
 labels:
   products:
+    - cloud
     - enterprise
     - oss
 ---

@@ -1,10 +1,11 @@
 ---
-tags:
-  - Business Input
-title: 'Features'
-description: 'Learn about the JavaScript Values Editor and LLM App integration features in the Business Input data source.'
+title: Features
+description: Learn about the JavaScript Values Editor and LLM App integration features in the Business Input data source.
+keywords:
+  - business input
 labels:
   products:
+    - cloud
     - enterprise
     - oss
 weight: 40

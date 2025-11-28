@@ -1,13 +1,12 @@
 ---
-tags:
-  - Business Input
-  - Release Notes
-image: /img/suite.png
-hide_table_of_contents: true
-title: 'Release Notes'
-description: 'Learn about the latest features, enhancements, fixes, and breaking changes in the Business Input data source.'
+title: Release Notes
+description: Learn about the latest features, enhancements, fixes, and breaking changes in the Business Input data source.
+keywords:
+  - business input
+  - release notes
 labels:
   products:
+    - cloud
     - enterprise
     - oss
 weight: 60

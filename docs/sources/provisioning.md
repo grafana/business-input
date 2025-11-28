@@ -1,11 +1,12 @@
 ---
-tags:
-  - Business Input
-  - Provisioning
-title: 'Provisioning'
-description: 'Learn how to provision the Business Input data source using YAML configuration files in Grafana.'
+title: Provisioning
+description: Learn how to provision the Business Input data source using YAML configuration files in Grafana.
+keywords:
+  - business input
+  - provisioning
 labels:
   products:
+    - cloud
     - enterprise
     - oss
 weight: 20

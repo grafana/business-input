@@ -1,10 +1,11 @@
 ---
-tags:
-  - Business Input
-title: 'Business Charts'
-description: 'Learn how to create data for the Business Charts panel using manual values or the JavaScript Values Editor.'
+title: Business Charts
+description: Learn how to create data for the Business Charts panel using manual values or the JavaScript Values Editor.
+keywords:
+  - business input
 labels:
   products:
+    - cloud
     - enterprise
     - oss
 ---

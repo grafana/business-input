@@ -1,11 +1,12 @@
 ---
-tags:
-  - Business Input
-title: 'Static Data Source with panels'
+title: Static Data Source with panels
 menuTitle: Panels
-description: 'Learn how to use the Business Input data source with various native and custom Grafana panels.'
+description: Learn how to use the Business Input data source with various native and custom Grafana panels.
+keywords:
+  - business input
 labels:
   products:
+    - cloud
     - enterprise
     - oss
 weight: 50

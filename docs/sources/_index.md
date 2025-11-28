@@ -1,10 +1,11 @@
 ---
-tags:
-  - Business Input
-title: 'Business Input'
-description: 'Learn how to store and emulate data in Grafana using the Business Input data source plugin.'
+title: Business Input
+description: Learn how to store and emulate data in Grafana using the Business Input data source plugin.
+keywords:
+  - business input
 labels:
   products:
+    - cloud
     - enterprise
     - oss
 weight: 10

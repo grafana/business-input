@@ -1,10 +1,11 @@
 ---
-tags:
-  - Business Input
-title: 'Logs'
-description: 'Learn how to create static log data for testing logs panels in Grafana.'
+title: Logs
+description: Learn how to create static log data for testing logs panels in Grafana.
+keywords:
+  - business input
 labels:
   products:
+    - cloud
     - enterprise
     - oss
 ---

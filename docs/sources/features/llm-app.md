@@ -1,11 +1,12 @@
 ---
-tags:
-  - Business Input
-  - LLM
-title: 'LLM App and OpenAI'
-description: 'Learn how to generate data using LLM models and OpenAI integration with the Business Input data source.'
+title: LLM App and OpenAI
+description: Learn how to generate data using LLM models and OpenAI integration with the Business Input data source.
+keywords:
+  - business input
+  - llm
 labels:
   products:
+    - cloud
     - enterprise
     - oss
 ---

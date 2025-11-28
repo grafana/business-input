@@ -1,11 +1,12 @@
 ---
-tags:
-  - Business Input
-  - Variables
-title: 'Variables'
-description: 'Learn how to use dashboard and global variables in the Business Input data source string fields.'
+title: Variables
+description: Learn how to use dashboard and global variables in the Business Input data source string fields.
+keywords:
+  - business input
+  - variables
 labels:
   products:
+    - cloud
     - enterprise
     - oss
 weight: 30

@@ -1,10 +1,11 @@
 ---
-tags:
-  - Business Input
-title: 'Node Graph'
-description: 'Learn how to create node and edge data for testing the Node Graph panel in Grafana.'
+title: Node Graph
+description: Learn how to create node and edge data for testing the Node Graph panel in Grafana.
+keywords:
+  - business input
 labels:
   products:
+    - cloud
     - enterprise
     - oss
 ---
