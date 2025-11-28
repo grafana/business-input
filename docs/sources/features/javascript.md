@@ -12,9 +12,9 @@ labels:
 
 # JavaScript Values Editor
 
-:::info Note
+{{< admonition type="note" >}}
 JavaScript Values Editor must return a data frame.
-:::
+{{< /admonition >}}
 
 ```js
 const result = {

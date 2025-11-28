@@ -26,10 +26,9 @@ Add [LLM App](https://grafana.com/grafana/plugins/grafana-llm-app/) plugin and s
 
 When LLM App configured, a text area will appear in `Code` editor mode of the Business Input Data Source.
 
-:::info Variables
-
+{{< admonition type="note" >}}
 Dashboard and Global variable are supported in the text area.
-:::
+{{< /admonition >}}
 
 This text area allows you to use the response that will be received from the LLM App together with OpenAI. The result is stored in `context.llmResult`.
 
