@@ -8,7 +8,7 @@ labels:
   products:
     - enterprise
     - oss
-    weight: 50
+weight: 50
 ---
 
 # Static Data Source with panels

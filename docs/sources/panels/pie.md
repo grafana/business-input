@@ -8,7 +8,6 @@ labels:
     - enterprise
     - oss
 ---
-import Image from "@theme/Image";
 
 # Pie Chart
 
