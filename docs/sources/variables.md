@@ -18,7 +18,7 @@ The Business Input Data Source supports dashboard and global variables in the St
 
 Three types of variables are discussed in the [Grafana Crash Course](/grafana/variables).
 
-## Code Editor
+## Code editor
 
 Create new `custom` variable:
 
@@ -30,7 +30,7 @@ Create new `custom` variable:
 
 {{< figure src="/media/docs/grafana/panels-visualizations/business-input/1st-variable.png" class="border" alt="Variable `from`" >}}
 
-- Create another variable related to the first variable using the `Business Input Data Source` and `Code editor` variable type `Query`. Query options -> Data source -> `Static`.
+- Create another variable related to the first variable using the `Business Input Data Source` and `Code editor` variable type `Query`. Query options > Data source > `Static`.
 - Take the value of the `from` variable and add 7 days to it for each iteration.
 - Use `${variable_name}` syntax to use your variable in code.
 
@@ -71,7 +71,7 @@ Now every change value for variable `from` change values and for variable `to`:
 
 {{< figure src="/media/docs/grafana/panels-visualizations/business-input/variable-reference-2.png" class="border" alt="Change of From variable will update variable To." >}}
 
-## Manual Editor
+## Manual editor
 
 Variable can be used in `Manual editor`. Use `$variable_name` syntax in input field.
 

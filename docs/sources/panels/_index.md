@@ -1,5 +1,5 @@
 ---
-title: Static Data Source with panels
+title: Static data source with panels
 menuTitle: Panels
 description: Learn how to use the Business Input data source with various native and custom Grafana panels.
 keywords:
@@ -12,12 +12,12 @@ labels:
 weight: 50
 ---
 
-# Static Data Source with panels
+# Static data source with panels
 
 Below are examples of using the Static Data Source with various native and custom Grafana panels.
 
 {{< admonition type="note" >}}
-You can use our Business Charts demo project to play with the Static Data source settings and various native and community plugins following the link [Business Charts Examples](https://echarts.volkovlabs.io). Go to Edit mode and start experimenting!
+You can use the Business Charts demo project to play with the Static Data source settings and various native and community plugins following the link [Business Charts Examples](https://echarts.volkovlabs.io). Go to Edit mode and start experimenting.
 {{< /admonition >}}
 
 | Section                            | Demonstrates                                           |

@@ -1,5 +1,5 @@
 ---
-title: Node Graph
+title: Node graph
 description: Learn how to create node and edge data for testing the Node Graph panel in Grafana.
 keywords:
   - business input
@@ -10,16 +10,16 @@ labels:
     - oss
 ---
 
-# Node Graph
+# Node graph
 
 You can use the Static data source to test graph panels like Node Graph.
 
-## Node Fields
+## Node fields
 
 - String field `id` with node ids.
 - String field `title` for node names.
 
-## Edge Fields
+## Edge fields
 
 - String field `id` for edge ids.
 - String field `source` for source id.

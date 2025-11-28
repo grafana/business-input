@@ -50,9 +50,9 @@ grafana cli plugins install marcusolsson-static-datasource
 
 ## Tutorial
 
-In this 6-minute tutorial, Daria explains what the plugin does. She demonstrates how to work with its parameters and use it for visualization panel discovery, data storage, and troubleshooting.
+This six-minute tutorial explains what the plugin does. It demonstrates how to work with its parameters and use it for visualization panel discovery, data storage, and troubleshooting.
 
-Daria still references the plugin using its old name. The newer version of the plugin review video is in the works and will be published as soon as it is available.
+The video still references the plugin using its old name. The newer version of the plugin review video is in the works and will be published as soon as it is available.
 
 {{< youtube id="QOV8ECOUjWs" >}}
 

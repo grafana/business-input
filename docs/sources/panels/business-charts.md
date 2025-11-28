@@ -17,10 +17,10 @@ You can use the Business Input data source to test the [Business Charts panel](/
 - Manually,
 - Using the **JavaScript Values Editor**.
 
-Please note, in both examples, we also use the Business Charts [**Visual Editor**](/plugins/business-charts/visualeditor/) to read the data frame values and pass them into the Business Charts.
+Please note, both examples use the Business Charts [**Visual Editor**](/plugins/business-charts/visualeditor/) to read the data frame values and pass them into the Business Charts.
 
 {{< admonition type="note" >}}
-You can use our Business Charts demo project to play with both the Business Input data source settings and the Business Charts parameters following the link [Business Charts Pie examples](https://echarts.volkovlabs.io/d/0b5-q7K4k/pie?orgId=1). Go to Edit mode and start experimenting!
+You can use the Business Charts demo project to play with both the Business Input data source settings and the Business Charts parameters following the link [Business Charts Pie examples](https://echarts.volkovlabs.io/d/0b5-q7K4k/pie?orgId=1). Go to Edit mode and start experimenting.
 {{< /admonition >}}
 
 ## Manual

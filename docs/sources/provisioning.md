@@ -33,7 +33,7 @@ datasources:
       codeEditorEnabled: true
 ```
 
-## Data Sources
+## Data sources
 
 When provisioned, the Static data source should be available in the data sources list.
 

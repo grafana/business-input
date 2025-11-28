@@ -1,5 +1,5 @@
 ---
-title: Release Notes
+title: Release notes
 description: Learn about the latest features, enhancements, fixes, and breaking changes in the Business Input data source.
 keywords:
   - business input
@@ -12,7 +12,7 @@ labels:
 weight: 60
 ---
 
-# Release Notes
+# Release notes
 
 Follow the development of the Business Input data source with these release notes, outlining new features, enhancements, fixes, and breaking changes across all versions.
 

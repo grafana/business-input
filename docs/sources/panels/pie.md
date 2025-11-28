@@ -1,5 +1,5 @@
 ---
-title: Pie Chart
+title: Pie chart
 description: Learn how to create category data for testing pie chart panels in Grafana.
 keywords:
   - business input
@@ -10,7 +10,7 @@ labels:
     - oss
 ---
 
-# Pie Chart
+# Pie chart
 
 You can use the Static data source to test category panels like Pie Charts.
 
