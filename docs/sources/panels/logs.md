@@ -20,7 +20,4 @@ You can use the Static data source to test panels for logs.
 - String field `message` for the text message.
 - String field `level` to defined log level: `info`, `error`, etc.
 
-<Image
-  title="Logs panels to display static logs for development."
-  src="/img/plugins/business-input/logs.png"
-/>
+{{< figure src="/media/docs/grafana/panels-visualizations/business-input/logs.png" class="border" alt="Logs panels to display static logs for development." >}}

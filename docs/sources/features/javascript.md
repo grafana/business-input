@@ -28,10 +28,7 @@ const result = {
 return Promise.resolve(result);
 ```
 
-<Image
-  title="Enable JavaScript Values Editor to get access to JavaScript area."
-  src="/img/plugins/business-input/import-js.png"
-/>
+{{< figure src="/media/docs/grafana/panels-visualizations/business-input/import-js.png" class="border" alt="Enable JavaScript Values Editor to get access to JavaScript area." >}}
 
 ## Imports
 

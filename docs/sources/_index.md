@@ -46,10 +46,7 @@ grafana cli plugins install marcusolsson-static-datasource
 - Uses Number input for Number, Date Time Picker for Time fields.
 - Uses Text Area for String inputs with more than 100 symbols.
 
-<Image
-  title="Display Pie Charts based on the data from the Static Data Source."
-  src="/img/plugins/business-input/dashboard.png"
-/>
+{{< figure src="/media/docs/grafana/panels-visualizations/business-input/dashboard.png" class="border" alt="Display Pie Charts based on the data from the Static Data Source." >}}
 
 ## Tutorial
 

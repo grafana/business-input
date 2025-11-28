@@ -19,7 +19,4 @@ You can use the Static data source to test category panels like Pie Charts.
 - String field `name` for the category name.
 - Number field `amount` for numeric value.
 
-<Image
-  title="Category panel like Pie Chart can be tested using the Static Data Source."
-  src="/img/plugins/business-input/dashboard.png"
-/>
+{{< figure src="/media/docs/grafana/panels-visualizations/business-input/dashboard.png" class="border" alt="Category panel like Pie Chart can be tested using the Static Data Source." >}}

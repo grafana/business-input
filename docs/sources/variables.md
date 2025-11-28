@@ -28,10 +28,7 @@ Create new `custom` variable:
 2022-04-10T00:00:00.000Z
 ```
 
-<Image
-  title="Variable `from`"
-  src="/img/plugins/business-input/1st-variable.png"
-/>
+{{< figure src="/media/docs/grafana/panels-visualizations/business-input/1st-variable.png" class="border" alt="Variable `from`" >}}
 
 - Create another variable related to the first variable using the `Business Input Data Source` and `Code editor` variable type `Query`. Query options -> Data source -> `Static`.
 - Take the value of the `from` variable and add 7 days to it for each iteration.
@@ -58,10 +55,7 @@ const result = {
 return Promise.resolve(result);
 ```
 
-<Image
-  title="Fill values for variable."
-  src="/img/plugins/business-input/2nd-variable.png"
-/>
+{{< figure src="/media/docs/grafana/panels-visualizations/business-input/2nd-variable.png" class="border" alt="Fill values for variable." >}}
 
 Values for `to` variable will be:
 
@@ -73,21 +67,12 @@ Values for `to` variable will be:
 
 Now every change value for variable `from` change values and for variable `to`:
 
-<Image
-  title="Change of From variable will update variable To."
-  src="/img/plugins/business-input/variable-reference.png"
-/>
+{{< figure src="/media/docs/grafana/panels-visualizations/business-input/variable-reference.png" class="border" alt="Change of From variable will update variable To." >}}
 
-<Image
-  title="Change of From variable will update variable To."
-  src="/img/plugins/business-input/variable-reference-2.png"
-/>
+{{< figure src="/media/docs/grafana/panels-visualizations/business-input/variable-reference-2.png" class="border" alt="Change of From variable will update variable To." >}}
 
 ## Manual Editor
 
 Variable can be used in `Manual editor`. Use `$variable_name` syntax in input field.
 
-<Image
-  title="Variable in Manual Editor."
-  src="/img/plugins/business-input/manual-editor-variable.png"
-/>
+{{< figure src="/media/docs/grafana/panels-visualizations/business-input/manual-editor-variable.png" class="border" alt="Variable in Manual Editor." >}}

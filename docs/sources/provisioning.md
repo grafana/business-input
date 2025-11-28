@@ -37,7 +37,4 @@ datasources:
 
 When provisioned, the Static data source should be available in the data sources list.
 
-<Image
-  title="Static Data source does not require any configuration."
-  src="/img/plugins/business-input/datasource.png"
-/>
+{{< figure src="/media/docs/grafana/panels-visualizations/business-input/datasource.png" class="border" alt="Static Data source does not require any configuration." >}}

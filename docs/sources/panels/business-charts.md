@@ -27,19 +27,13 @@ You can use our Business Charts demo project to play with both the Business Inpu
 
 The Business Input data source can be used to add files and values manually.
 
-<Image
-  title="The Business Charts Pie Chart using Manual mode."
-  src="/img/plugins/business-input/bi-charts-pie-manual-editor.png"
-/>
+{{< figure src="/media/docs/grafana/panels-visualizations/business-input/bi-charts-pie-manual-editor.png" class="border" alt="The Business Charts Pie Chart using Manual mode." >}}
 
 ## JavaScript Values Editor
 
 Using the JavaScript **Values Editor** to generate data frame values.
 
-<Image
-  title="The Business Charts Pie Chart using JavaScript Code mode."
-  src="/img/plugins/business-input/bi-charts-pie-code-editor.png"
-/>
+{{< figure src="/media/docs/grafana/panels-visualizations/business-input/bi-charts-pie-code-editor.png" class="border" alt="The Business Charts Pie Chart using JavaScript Code mode." >}}
 
 JavaScript code creating values for the the Business Input data source.
 

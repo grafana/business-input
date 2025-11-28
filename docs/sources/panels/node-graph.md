@@ -26,7 +26,4 @@ You can use the Static data source to test graph panels like Node Graph.
 - String field `target` for target id.
 - Number field `mainstat` for the value.
 
-<Image
-  title="Graph panels like Node Graph can be tested using Static Data Source."
-  src="/img/plugins/business-input/graph.png"
-/>
+{{< figure src="/media/docs/grafana/panels-visualizations/business-input/graph.png" class="border" alt="Graph panels like Node Graph can be tested using Static Data Source." >}}

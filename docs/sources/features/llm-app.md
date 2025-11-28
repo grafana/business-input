@@ -19,10 +19,7 @@ The Business Input Data Source supports LLM models (OpenAI, custom) using LLM Ap
 
 Add [LLM App](https://grafana.com/grafana/plugins/grafana-llm-app/) plugin and set up `OpenAI API Key` with `OpenAI API Organization ID`.
 
-<Image
-  title="Configure LLM App plugin for Grafana to set API key and organization ID."
-  src="/img/plugins/business-input/llm-app.png"
-/>
+{{< figure src="/media/docs/grafana/panels-visualizations/business-input/llm-app.png" class="border" alt="Configure LLM App plugin for Grafana to set API key and organization ID." >}}
 
 When LLM App configured, a text area will appear in `Code` editor mode of the Business Input Data Source.
 
@@ -32,10 +29,7 @@ Dashboard and Global variable are supported in the text area.
 
 This text area allows you to use the response that will be received from the LLM App together with OpenAI. The result is stored in `context.llmResult`.
 
-<Image
-  title="Result returned from LLM App for BTC price."
-  src="/img/plugins/business-input/llm-app-message-box.png"
-/>
+{{< figure src="/media/docs/grafana/panels-visualizations/business-input/llm-app-message-box.png" class="border" alt="Result returned from LLM App for BTC price." >}}
 
 ## Example with BTC price
 
@@ -77,7 +71,4 @@ return Promise.resolve(result);
 
 Produced data frame with results can be displayed with any panel plugin.
 
-<Image
-  title="Display OpenAI results for BTC price using native Time Series panel."
-  src="/img/plugins/business-input/llm-result.png"
-/>
+{{< figure src="/media/docs/grafana/panels-visualizations/business-input/llm-result.png" class="border" alt="Display OpenAI results for BTC price using native Time Series panel." >}}
