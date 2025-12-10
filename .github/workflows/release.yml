@@ -33,5 +33,6 @@ jobs:
       environment: ${{ github.event.inputs.environment }}
       docs-only: ${{ fromJSON(github.event.inputs.docs-only) }}
       github-draft-release: false
+      signature-type: community
       run-playwright: true
       run-playwright-docker: true
