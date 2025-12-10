@@ -34,3 +34,4 @@ jobs:
       docs-only: ${{ fromJSON(github.event.inputs.docs-only) }}
       github-draft-release: false
       run-playwright: true
+      run-playwright-docker: true

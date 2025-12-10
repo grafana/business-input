@@ -14,4 +14,4 @@ RUN npm install --only=dev
 RUN npx playwright install --with-deps chromium
 
 # Run tests
-CMD ["npm", "run", "test:e2e"]
+CMD ["npm", "run", "e2e"]
