@@ -2,7 +2,7 @@
   "name": "business-input",
   "version": "5.1.0",
   "description": "Simulates and manages data with JavaScript and LLM, offering flexible control within Grafana.",
-  "author": "Volkov Labs",
+  "author": "Grafana Labs <team@grafana.com> (https://grafana.com)",
   "license": "Apache-2.0",
   "repository": "github:grafana/business-input",
   "scripts": {
