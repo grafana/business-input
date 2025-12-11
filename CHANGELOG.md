@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to **Business Input Data Source** will be documented in this file. This changelog follows the [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) format and adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Thank you for using our plugin! For any questions or contributions, feel free to visit our [GitHub repository](https://github.com/VolkovLabs/business-input).
+All notable changes to **Business Input Data Source** will be documented in this file. This changelog follows the [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) format and adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Thank you for using our plugin! For any questions or contributions, feel free to visit our [GitHub repository](https://github.com/grafana/business-input).
 
 ## [5.1.0] - 2025-09-29
 
