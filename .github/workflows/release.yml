@@ -35,3 +35,4 @@ jobs:
       github-draft-release: false
       signature-type: community
       run-playwright-docker: true
+      run-playwright: false
