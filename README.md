@@ -63,4 +63,4 @@ Business Input is part of the **Business Suite**, a collection of open-source pl
 
 ## 📜 License
 
-This project is licensed under the Apache License Version 2.0. See the [LICENSE](hhttps://github.com/grafana/business-input/blob/main/LICENSE) file for details.
+This project is licensed under the Apache License Version 2.0. See the [LICENSE](https://github.com/grafana/business-input/blob/main/LICENSE) file for details.
