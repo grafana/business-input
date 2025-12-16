@@ -1,38 +1,39 @@
-import tsParser from '@typescript-eslint/parser';
-import { defineConfig, globalIgnores } from 'eslint/config';
-import prettierConfig from 'eslint-config-prettier/flat';
-import grafanaConfig from '@grafana/eslint-config/flat.js';
-import eslintConfig from '@volkovlabs/eslint-config';
+import { defineConfig } from 'eslint/config';
+import baseConfig from './.config/eslint.config.mjs';
 
-/**
- * Config
- */
-export default defineConfig(
-  ...grafanaConfig,
-  eslintConfig,
-  prettierConfig,
+export default defineConfig([
   {
-    languageOptions: {
-      parser: tsParser,
-      parserOptions: {
-        project: ['tsconfig.json'],
-        sourceType: 'module',
-      },
-    },
-    rules: {
-      '@typescript-eslint/no-empty-object-type': 'off',
-    },
+    ignores: [
+      '**/logs',
+      '**/*.log',
+      '**/npm-debug.log*',
+      '**/yarn-debug.log*',
+      '**/yarn-error.log*',
+      '**/.pnpm-debug.log*',
+      '**/node_modules/',
+      '.yarn/cache',
+      '.yarn/unplugged',
+      '.yarn/build-state.yml',
+      '.yarn/install-state.gz',
+      '**/.pnp.*',
+      '**/pids',
+      '**/*.pid',
+      '**/*.seed',
+      '**/*.pid.lock',
+      '**/lib-cov',
+      '**/coverage',
+      '**/dist/',
+      '**/artifacts/',
+      '**/work/',
+      '**/ci/',
+      'test-results/',
+      'playwright-report/',
+      'blob-report/',
+      'playwright/.cache/',
+      'playwright/.auth/',
+      '**/.idea',
+      '**/.eslintcache',
+    ],
   },
-  globalIgnores([
-    '.config/*',
-    '.prettierrc.js',
-    'coverage/*',
-    'dist/*',
-    'eslint.config.mjs',
-    'jest*.js',
-    'playwright.config.ts',
-    'src/__mocks__/**',
-    'src/**/*.test.ts*',
-    'test/*',
-  ])
-);
+  ...baseConfig,
+]);
