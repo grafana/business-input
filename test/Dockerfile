@@ -7,5 +7,8 @@ WORKDIR app
 # COPY the needed files to the app folder in Docker image
 COPY .. .
 
+# Install the dependencies in Node environment
+RUN yarn install
+
 # Run tests
 CMD ["yarn", "e2e"]
