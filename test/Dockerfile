@@ -8,7 +8,7 @@ WORKDIR app
 COPY .. .
 
 # Install the dependencies in Node environment
-RUN npm install --legacy-peer-deps
+RUN yarn install
 
 # Run tests
-CMD ["npm", "run", "e2e"]
+CMD ["yarn", "e2e"]

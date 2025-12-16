@@ -11,7 +11,7 @@
     "e2e": "playwright test",
     "levitate": "npx @grafana/levitate@latest is-compatible --path src/module.ts --target @grafana/data,@grafana/runtime,@grafana/ui",
     "lint": "eslint --cache .",
-    "lint:fix": "npm run lint --fix && prettier --write --list-different .",
+    "lint:fix": "yarn run lint --fix && prettier --write --list-different .",
     "server": "docker compose up --build",
     "sign": "npx --yes @grafana/sign-plugin@latest",
     "test": "jest --watch --onlyChanged",
@@ -82,5 +82,6 @@
     "webpack-livereload-plugin": "3.0.2",
     "webpack-subresource-integrity": "5.1.0",
     "webpack-virtual-modules": "0.6.2"
-  }
+  },
+  "packageManager": "yarn@4.12.0"
 }
