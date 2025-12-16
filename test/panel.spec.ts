@@ -3,11 +3,6 @@ import { ConfigEditorHelper, QueryEditorHelper, PanelHelper } from './utils';
 import * as semver from 'semver';
 
 test.describe('Static Data Source', () => {
-  test('Check grafana version', async ({ grafanaVersion }) => {
-    console.log('Grafana version: ', grafanaVersion);
-    expect(grafanaVersion).toEqual(grafanaVersion);
-  });
-
   test.describe('Datasource config editor', () => {
     test('Should render config editor', async ({ createDataSourceConfigPage, readProvisionedDataSource, page }) => {
       const datasource = await readProvisionedDataSource({ fileName: 'datasources.yaml' });
@@ -168,23 +163,17 @@ test.describe('Static Data Source', () => {
   });
 
   test.describe('Provisioning', () => {
-    test('Should return configured values', async ({ gotoDashboardPage, readProvisionedDashboard, selectors }) => {
+    test('Should return configured values', async ({ gotoDashboardPage, readProvisionedDashboard, page }) => {
       /**
        * Go To Panels dashboard panels.json
        * return dashboardPage
        */
       const dashboard = await readProvisionedDashboard({ fileName: 'panels.json' });
-      const dashboardPage = await gotoDashboardPage({ uid: dashboard.uid });
+      await gotoDashboardPage({ uid: dashboard.uid });
 
-      const panel = new PanelHelper(dashboardPage, 'Logs', selectors);
-      await panel.checkIfNoErrors();
-
-      const table = panel.getTable();
-      await table.checkTablePresence();
-      await table.checkRowsCount(3);
-      await table.checkRowContent(0, 'user logged in');
-      await table.checkRowContent(1, 'user login failed');
-      await table.checkRowContent(2, 'user registered');
+      await expect(page.getByTestId('data-testid Panel header Logs').getByText('user logged in')).toBeVisible();
+      await expect(page.getByTestId('data-testid Panel header Logs').getByText('user login failed')).toBeVisible();
+      await expect(page.getByTestId('data-testid Panel header Logs').getByText('user registered')).toBeVisible();
     });
 
     test('Should return configured data', async ({

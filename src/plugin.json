@@ -2,29 +2,25 @@
   "$schema": "https://github.com/grafana/grafana/raw/main/docs/sources/developers/plugins/plugin.schema.json",
   "annotations": true,
   "dependencies": {
-    "grafanaDependency": ">=11.0.0",
+    "grafanaDependency": ">=11.6.0",
     "plugins": []
   },
   "id": "marcusolsson-static-datasource",
   "info": {
     "author": {
-      "name": "Volkov Labs",
-      "url": "https://volkovlabs.io"
+      "name": "Grafana Labs",
+      "url": "https://grafana.com"
     },
     "description": "Simulates and manages data with JavaScript and LLM, offering flexible control",
     "keywords": ["input", "test", "development", "mock", "javascript"],
     "links": [
       {
         "name": "Documentation",
-        "url": "https://volkovlabs.io/plugins/business-input/"
+        "url": "https://grafana.com/grafana/plugins/marcusolsson-static-datasource/"
       },
       {
         "name": "GitHub",
-        "url": "https://github.com/volkovlabs/business-input"
-      },
-      {
-        "name": "Sponsor",
-        "url": "https://volkovlabs.io/pricing/"
+        "url": "https://github.com/grafana/business-input"
       }
     ],
     "logos": {
