@@ -3,10 +3,6 @@
 ![Screenshot](https://github.com/volkovlabs/business-input/raw/main/src/img/dark.png)
 
 [![Grafana](https://img.shields.io/badge/Grafana-12.0-orange)](https://grafana.com/)
-[![CI](https://github.com/volkovlabs/business-input/workflows/CI/badge.svg)](https://github.com/volkovlabs/business-input/actions/workflows/ci.yml)
-[![E2E](https://github.com/volkovlabs/business-input/workflows/E2E/badge.svg)](https://github.com/volkovlabs/business-input/actions/workflows/e2e.yml)
-[![Codecov](https://codecov.io/gh/VolkovLabs/business-input/branch/main/graph/badge.svg)](https://codecov.io/gh/VolkovLabs/business-input)
-[![CodeQL](https://github.com/VolkovLabs/business-input/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/VolkovLabs/business-input/actions/workflows/codeql-analysis.yml)
 
 **Business Input** is a powerful Grafana plugin that enables you to store, emulate, and visualize static data effortlessly. Perfect for testing, prototyping, or creating custom visualizations without relying on external data sources.
 
@@ -63,4 +59,4 @@ Business Input is part of the **Business Suite**, a collection of open-source pl
 
 ## 📜 License
 
-This project is licensed under the Apache License Version 2.0. See the [LICENSE](https://github.com/volkovlabs/business-input/blob/main/LICENSE) file for details.
+This project is licensed under the Apache License Version 2.0. See the [LICENSE](https://github.com/grafana/business-input/blob/main/LICENSE) file for details.
