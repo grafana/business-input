@@ -16,7 +16,7 @@
     "links": [
       {
         "name": "Documentation",
-        "url": "https://grafana.com/grafana/plugins/marcusolsson-static-datasource/"
+        "url": "https://grafana.com/docs/plugins/marcusolsson-static-datasource/"
       },
       {
         "name": "GitHub",

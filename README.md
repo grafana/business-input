@@ -44,12 +44,12 @@ grafana cli plugins install marcusolsson-static-datasource
 
 Explore detailed guides and tutorials to maximize the potential of Business Input:
 
-| Section                                                                    | Description                                           |
-| -------------------------------------------------------------------------- | ----------------------------------------------------- |
-| [Provisioning](https://volkovlabs.io/plugins/business-input/provisioning/) | Learn how to automatically provision the data source. |
-| [Variables](https://volkovlabs.io/plugins/business-input/variables/)       | Understand how to use variables for dynamic data.     |
-| [Panels](https://volkovlabs.io/plugins/business-input/panels/)             | See how to integrate with Grafana panels.             |
-| [Release Notes](https://volkovlabs.io/plugins/business-input/release/)     | Stay updated with the latest features and changes.    |
+| Section  | Description                                           |
+| -------- | ----------------------------------------------------- |
+| [Provisioning](https://grafana.com/docs/plugins/marcusolsson-static-datasource/latest/provisioning/) | Learn how to automatically provision the data source. |
+| [Variables](https://grafana.com/docs/plugins/marcusolsson-static-datasource/latest/variables/)       | Understand how to use variables for dynamic data.     |
+| [Panels](https://grafana.com/docs/plugins/marcusolsson-static-datasource/latest/panels/)             | See how to integrate with Grafana panels.             |
+| [Release Notes](https://grafana.com/docs/plugins/marcusolsson-static-datasource/latest/release/)     | Stay updated with the latest features and changes.    |
 
 ## 🌟 Business Suite for Grafana
 
