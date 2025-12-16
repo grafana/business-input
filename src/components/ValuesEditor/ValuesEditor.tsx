@@ -1,7 +1,6 @@
 import { FieldType } from '@grafana/data';
-import { Button, ButtonGroup, Icon, IconButton, InlineField, InlineFieldRow, useStyles2 } from '@grafana/ui';
+import { Button, ButtonGroup, Collapse, Icon, IconButton, InlineField, InlineFieldRow, Stack, useStyles2 } from '@grafana/ui';
 import { DragDropContext, Draggable, DraggingStyle, Droppable, DropResult, NotDraggingStyle } from '@hello-pangea/dnd';
-import { Collapse } from '@volkovlabs/components';
 import { ValueEditor } from 'components/ValueEditor';
 import React, { useCallback, useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
@@ -300,50 +299,57 @@ export const ValuesEditor = ({ model, onChange }: Props) => {
                       className={styles.field}
                     >
                       <Collapse
-                        headerTestId={TEST_IDS.valuesEditor.itemHeader(row.id)}
-                        contentTestId={TEST_IDS.valuesEditor.itemContent(row.id)}
-                        fill="solid"
                         isOpen={collapseState[row.id]}
                         onToggle={() => onToggleItem(row)}
-                        title={<>#{i + 1}</>}
-                        actions={
-                          <div className={styles.buttons}>
-                            <IconButton
-                              name="copy"
-                              tooltip="Copy row"
-                              variant="secondary"
-                              aria-label="Copy row"
-                              data-testid={TEST_IDS.valuesEditor.buttonCopy}
-                              onClick={() => duplicateRow(i)}
-                            />
-                            <IconButton
-                              name="trash-alt"
-                              size="md"
-                              tooltip="Remove row"
-                              variant="secondary"
-                              aria-label="Remove row"
-                              data-testid={TEST_IDS.valuesEditor.buttonRemove}
-                              onClick={() => removeRow(i)}
-                            />
-                            <div {...provided.dragHandleProps} className={styles.dragIcon}>
-                              <Icon title="Drag and drop to reorder" name="draggabledots" />
-                            </div>
-                          </div>
+                        label={
+                          <Stack flex={1} alignItems="center" justifyContent="space-between">
+                            #{i + 1}
+                            <Stack alignItems="center" gap={0.5}>
+                              <IconButton
+                                name="copy"
+                                tooltip="Copy row"
+                                variant="secondary"
+                                aria-label="Copy row"
+                                data-testid={TEST_IDS.valuesEditor.buttonCopy}
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  duplicateRow(i);
+                                }}
+                              />
+                              <IconButton
+                                name="trash-alt"
+                                size="md"
+                                tooltip="Remove row"
+                                variant="secondary"
+                                aria-label="Remove row"
+                                data-testid={TEST_IDS.valuesEditor.buttonRemove}
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  removeRow(i);
+                                }}
+                              />
+                              <div {...provided.dragHandleProps} className={styles.dragIcon} onClick={(e) => e.stopPropagation()}>
+                                <Icon title="Drag and drop to reorder" name="draggabledots" />
+                              </div>
+                            </Stack>
+                          </Stack>
                         }
                       >
-                        <InlineFieldRow data-testid={TEST_IDS.valuesEditor.row}>
-                          <div className={styles.controls}>
-                            {row.value.map((value: FieldValue, index: number) => (
-                              <ValueEditor
-                                key={index}
-                                value={value}
-                                type={model.fields[index].type}
-                                label={model.fields[index].name}
-                                onChange={(value) => editValue(value, i, index)}
-                              />
-                            ))}
-                          </div>
-                        </InlineFieldRow>
+                        <div data-testid={TEST_IDS.valuesEditor.itemContent(row.id)}>
+                          <InlineFieldRow data-testid={TEST_IDS.valuesEditor.row}>
+                            <div className={styles.controls}>
+                              {row.value.map((value: FieldValue, index: number) => (
+                                <ValueEditor
+                                  key={index}
+                                  value={value}
+                                  type={model.fields[index].type}
+                                  label={model.fields[index].name}
+                                  onChange={(value) => editValue(value, i, index)}
+                                />
+                              ))}
+                            </div>
+                          </InlineFieldRow>
+                        </div>
                       </Collapse>
                     </div>
                   )}

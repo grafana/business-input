@@ -51,16 +51,16 @@ describe('Editor', () => {
    * Open Item
    * @param id
    */
-  const openItem = (id: string): ReturnType<typeof getSelectors> => {
+  const openItem = (id: string, label: string): ReturnType<typeof getSelectors> => {
     /**
      * Check item presence
      */
-    expect(selectors.itemHeader(false, id)).toBeInTheDocument();
+    expect(screen.getByText(label)).toBeInTheDocument();
 
     /**
      * Make Item is opened
      */
-    fireEvent.click(selectors.itemHeader(false, id));
+    fireEvent.click(screen.getByText(label));
 
     /**
      * Check if item content exists
@@ -251,7 +251,7 @@ describe('Editor', () => {
 
     expect(selectors.root()).toBeInTheDocument();
 
-    openItem(model.rows[0].id);
+    openItem(model.rows[0].id, '#1');
     const items = screen.getAllByTestId(TEST_IDS.valuesEditor.row);
 
     expect(items[0]).toBeInTheDocument();
