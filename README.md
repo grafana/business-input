@@ -1,8 +1,14 @@
 # Business Input for Grafana
 
-![Screenshot](https://github.com/volkovlabs/business-input/raw/main/src/img/dark.png)
-
 [![Grafana](https://img.shields.io/badge/Grafana-12.0-orange)](https://grafana.com/)
+
+This project was originally contributed by [Volkov Labs](https://github.com/volkovlabs/business-text) - thanks for all your great work!
+
+> [!CAUTION]
+> This data source plugin is now in maintenance mode. It will continue to receive only minimal updates required for compatibility with Grafana 12.x.
+> No new features will be developed. To ensure long-term support and access to new capabilities, we recommend using the [Infinity data source plugin](https://grafana.com/grafana/plugins/yesoreyeram-infinity-datasource/).  
+
+## Legacy information
 
 **Business Input** is a powerful Grafana plugin that enables you to store, emulate, and visualize static data effortlessly. Perfect for testing, prototyping, or creating custom visualizations without relying on external data sources.
 
