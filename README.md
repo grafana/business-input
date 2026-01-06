@@ -1,12 +1,16 @@
 # Business Input for Grafana
 
-![Screenshot](https://github.com/volkovlabs/business-input/raw/main/src/img/dark.png)
-
 [![Grafana](https://img.shields.io/badge/Grafana-12.0-orange)](https://grafana.com/)
 
-**Business Input** is a powerful Grafana plugin that enables you to store, emulate, and visualize static data effortlessly. Perfect for testing, prototyping, or creating custom visualizations without relying on external data sources.
+This project was originally contributed by [Volkov Labs](https://github.com/volkovlabs/business-text) - thanks for all your great work!
 
-[![Business Input Data Source for Grafana | Mimic Any Data Source | Tutorial & Examples](https://raw.githubusercontent.com/volkovlabs/business-input/main/img/video.png)](https://youtu.be/QOV8ECOUjWs)
+> [!CAUTION]
+> This data source plugin is now in maintenance mode. It will continue to receive only minimal updates required for compatibility with Grafana 12.x.
+> No new features will be developed. To ensure long-term support and access to new capabilities, we recommend using the [Infinity data source plugin](https://grafana.com/grafana/plugins/yesoreyeram-infinity-datasource/).  
+
+## Legacy information
+
+**Business Input** is a powerful Grafana plugin that enables you to store, emulate, and visualize static data effortlessly. Perfect for testing, prototyping, or creating custom visualizations without relying on external data sources.
 
 ## 🚀 Features
 
@@ -38,8 +42,6 @@ Install the Business Input data source via the [Grafana Plugins Catalog](https:/
 grafana cli plugins install marcusolsson-static-datasource
 ```
 
-[![Install Business Suite Plugins in Cloud, OSS, Enterprise | Open Source Community Plugins](https://raw.githubusercontent.com/volkovlabs/.github/main/started.png)](https://youtu.be/1qYzHfPXJF8)
-
 ## 📚 Documentation
 
 Explore detailed guides and tutorials to maximize the potential of Business Input:
@@ -51,11 +53,6 @@ Explore detailed guides and tutorials to maximize the potential of Business Inpu
 | [Panels](https://grafana.com/docs/plugins/marcusolsson-static-datasource/latest/panels/)             | See how to integrate with Grafana panels.             |
 | [Release Notes](https://grafana.com/docs/plugins/marcusolsson-static-datasource/latest/release/)     | Stay updated with the latest features and changes.    |
 
-## 🌟 Business Suite for Grafana
-
-Business Input is part of the **Business Suite**, a collection of open-source plugins by Volkov Labs designed to solve common business challenges with intuitive interfaces, comprehensive documentation, and video tutorials.
-
-[![Business Suite for Grafana](https://raw.githubusercontent.com/VolkovLabs/.github/main/business.png)](https://volkovlabs.io/plugins/)
 
 ## 📜 License
 
