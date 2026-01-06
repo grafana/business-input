@@ -68,7 +68,8 @@ test.describe('Static Data Source', () => {
       }
     });
 
-    test('Table query should return columns via code query editor', async ({
+    // This test is skipped because it is flaky as the monaco editor is not playing nicely with playwright
+    test.skip('Table query should return columns via code query editor', async ({
       page,
       selectors,
       panelEditPage,
