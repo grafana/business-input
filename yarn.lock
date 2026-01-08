@@ -4617,7 +4617,7 @@ __metadata:
     react-dom: "npm:18.3.1"
     replace-in-file-webpack-plugin: "npm:1.0.6"
     rxjs: "npm:7.8.2"
-    sass: "npm:1.95.1"
+    sass: "npm:1.97.1"
     sass-loader: "npm:16.0.6"
     semver: "npm:7.7.3"
     style-loader: "npm:4.0.0"
@@ -11167,9 +11167,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.95.1":
-  version: 1.95.1
-  resolution: "sass@npm:1.95.1"
+"sass@npm:1.97.1":
+  version: 1.97.1
+  resolution: "sass@npm:1.97.1"
   dependencies:
     "@parcel/watcher": "npm:^2.4.1"
     chokidar: "npm:^4.0.0"
@@ -11180,7 +11180,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: 10c0/458c65e961eb67a64b15c9e78897543f5af98b40ecd3a6a4f10d12fcf8fc17af029602ce9897ad48b1a4404083969575db28b78249e11ecdf54dbe9ea7fda594
+  checksum: 10c0/c389d5d6405869b49fa2291e8328500fe7936f3b72136bc2c338bee6e7fec936bb9a48d77a1310dea66aa4669ba74ae6b82a112eb32521b9b36d740138a39ea0
   languageName: node
   linkType: hard
 
