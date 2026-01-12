@@ -987,11 +987,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@grafana/llm@npm:0.22.1":
-  version: 0.22.1
-  resolution: "@grafana/llm@npm:0.22.1"
+"@grafana/llm@npm:1.0.2":
+  version: 1.0.2
+  resolution: "@grafana/llm@npm:1.0.2"
   dependencies:
-    "@modelcontextprotocol/sdk": "npm:^1.11.3"
+    "@modelcontextprotocol/sdk": "npm:^1.25.1"
+    publint: "npm:^0.3.12"
     react-use: "npm:^17.6.0"
     semver: "npm:^7.6.3"
     uuid: "npm:^11.0.5"
@@ -999,8 +1000,8 @@ __metadata:
     "@grafana/data": ^10.4.0 ||^11 || ^12
     "@grafana/runtime": ^10.4.0 || ^11 || ^12
     react: ^18
-    rxjs: ^7.8.1
-  checksum: 10c0/6f2e9940e82e3db566882d4f3f57519cd1845eea595fba64e7fddefadbb8f9fcd8266173acfc4dc9190c8c910dc8d0d12e3c71012957735a02d85787b87df671
+    rxjs: ^7.8.2
+  checksum: 10c0/66cd98c2513b248f8a9d680a3b4c72dd6adbff8607532cf412b94b0d000587c089938bc4def5a765237a42d93f58761e128e6cea80be460bbc4d66ddeaa04ae8
   languageName: node
   linkType: hard
 
@@ -1705,9 +1706,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@modelcontextprotocol/sdk@npm:^1.11.3":
-  version: 1.25.0
-  resolution: "@modelcontextprotocol/sdk@npm:1.25.0"
+"@modelcontextprotocol/sdk@npm:^1.25.1":
+  version: 1.25.2
+  resolution: "@modelcontextprotocol/sdk@npm:1.25.2"
   dependencies:
     "@hono/node-server": "npm:^1.19.7"
     ajv: "npm:^8.17.1"
@@ -1733,7 +1734,7 @@ __metadata:
       optional: true
     zod:
       optional: false
-  checksum: 10c0/70c6b1654464957af3cd3b3ec71a526e8dcd114d609c5a987673c0844d27fd439be6fbbcfe6d16f22d6c4e1fe5354937ba9549d7fe05f80fcabcdae20c252b46
+  checksum: 10c0/ffc024398e1b7841fb1ff2dc540e2e84f4b97a2a4058ef48e58836ce6077321c536a3858e9155472b7933c4773975b375167815bd4d721c3ca1e92db62e9488c
   languageName: node
   linkType: hard
 
@@ -2182,6 +2183,13 @@ __metadata:
   version: 1.1.0
   resolution: "@protobufjs/utf8@npm:1.1.0"
   checksum: 10c0/a3fe31fe3fa29aa3349e2e04ee13dc170cc6af7c23d92ad49e3eeaf79b9766264544d3da824dba93b7855bd6a2982fb40032ef40693da98a136d835752beb487
+  languageName: node
+  linkType: hard
+
+"@publint/pack@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "@publint/pack@npm:0.1.2"
+  checksum: 10c0/4647158cd3a27816ecaf139327662d31820d61e89eb970b318fd0f7c30715baaedf27d294d31772f3a6ad71f84c42509b90328aa5b6301b706322eb7c35ddb3f
   languageName: node
   linkType: hard
 
@@ -4155,7 +4163,7 @@ __metadata:
     "@emotion/css": "npm:11.13.5"
     "@grafana/data": "npm:12.3.1"
     "@grafana/eslint-config": "npm:9.0.0"
-    "@grafana/llm": "npm:0.22.1"
+    "@grafana/llm": "npm:1.0.2"
     "@grafana/plugin-e2e": "npm:3.1.1"
     "@grafana/runtime": "npm:12.3.1"
     "@grafana/schema": "npm:12.3.1"
@@ -8572,6 +8580,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mri@npm:^1.1.0":
+  version: 1.2.0
+  resolution: "mri@npm:1.2.0"
+  checksum: 10c0/a3d32379c2554cf7351db6237ddc18dc9e54e4214953f3da105b97dc3babe0deb3ffe99cf409b38ea47cc29f9430561ba6b53b24ab8f9ce97a4b50409e4a50e7
+  languageName: node
+  linkType: hard
+
 "ms@npm:^2.1.1, ms@npm:^2.1.3":
   version: 2.1.3
   resolution: "ms@npm:2.1.3"
@@ -8918,6 +8933,13 @@ __metadata:
   version: 1.0.1
   resolution: "package-json-from-dist@npm:1.0.1"
   checksum: 10c0/62ba2785eb655fec084a257af34dbe24292ab74516d6aecef97ef72d4897310bc6898f6c85b5cd22770eaa1ce60d55a0230e150fb6a966e3ecd6c511e23d164b
+  languageName: node
+  linkType: hard
+
+"package-manager-detector@npm:^1.6.0":
+  version: 1.6.0
+  resolution: "package-manager-detector@npm:1.6.0"
+  checksum: 10c0/6419d0b840be64fd45bcdcb7a19f09b81b65456d5e7f7a3daac305a4c90643052122f6ac0308afe548ffee75e36148532a2002ea9d292754f1e385aa2e1ea03b
   languageName: node
   linkType: hard
 
@@ -9355,6 +9377,20 @@ __metadata:
     forwarded: "npm:0.2.0"
     ipaddr.js: "npm:1.9.1"
   checksum: 10c0/c3eed999781a35f7fd935f398b6d8920b6fb00bbc14287bc6de78128ccc1a02c89b95b56742bf7cf0362cc333c61d138532049c7dedc7a328ef13343eff81210
+  languageName: node
+  linkType: hard
+
+"publint@npm:^0.3.12":
+  version: 0.3.16
+  resolution: "publint@npm:0.3.16"
+  dependencies:
+    "@publint/pack": "npm:^0.1.2"
+    package-manager-detector: "npm:^1.6.0"
+    picocolors: "npm:^1.1.1"
+    sade: "npm:^1.8.1"
+  bin:
+    publint: src/cli.js
+  checksum: 10c0/8bfc17b40ebc6687ae983974d08a8cc715a2c4db403a57dfb17bd56638a23a9ca1888d76ccf53a42edce709c1c1317bce94d50fe53b8ea6400ab40684aca3d82
   languageName: node
   linkType: hard
 
@@ -10338,6 +10374,15 @@ __metadata:
   dependencies:
     tslib: "npm:^2.1.0"
   checksum: 10c0/1fcd33d2066ada98ba8f21fcbbcaee9f0b271de1d38dc7f4e256bfbc6ffcdde68c8bfb69093de7eeb46f24b1fb820620bf0223706cff26b4ab99a7ff7b2e2c45
+  languageName: node
+  linkType: hard
+
+"sade@npm:^1.8.1":
+  version: 1.8.1
+  resolution: "sade@npm:1.8.1"
+  dependencies:
+    mri: "npm:^1.1.0"
+  checksum: 10c0/da8a3a5d667ad5ce3bf6d4f054bbb9f711103e5df21003c5a5c1a8a77ce12b640ed4017dd423b13c2307ea7e645adee7c2ae3afe8051b9db16a6f6d3da3f90b1
   languageName: node
   linkType: hard
 
