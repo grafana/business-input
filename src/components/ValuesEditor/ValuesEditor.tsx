@@ -1,5 +1,15 @@
 import { FieldType } from '@grafana/data';
-import { Button, ButtonGroup, Collapse, Icon, IconButton, InlineField, InlineFieldRow, Stack, useStyles2 } from '@grafana/ui';
+import {
+  Button,
+  ButtonGroup,
+  Collapse,
+  Icon,
+  IconButton,
+  InlineField,
+  InlineFieldRow,
+  Stack,
+  useStyles2,
+} from '@grafana/ui';
 import { DragDropContext, Draggable, DraggingStyle, Droppable, DropResult, NotDraggingStyle } from '@hello-pangea/dnd';
 import { ValueEditor } from 'components/ValueEditor';
 import React, { useCallback, useState } from 'react';
@@ -216,7 +226,7 @@ export const ValuesEditor = ({ model, onChange }: Props) => {
       }
 
       /**
-       * Сreate rows with the new order
+       * Create rows with the new order
        */
       const newRows = reorder(model.rows, result.source.index, result.destination.index);
 
@@ -328,7 +338,11 @@ export const ValuesEditor = ({ model, onChange }: Props) => {
                                   removeRow(i);
                                 }}
                               />
-                              <div {...provided.dragHandleProps} className={styles.dragIcon} onClick={(e) => e.stopPropagation()}>
+                              <div
+                                {...provided.dragHandleProps}
+                                className={styles.dragIcon}
+                                onClick={(e) => e.stopPropagation()}
+                              >
                                 <Icon title="Drag and drop to reorder" name="draggabledots" />
                               </div>
                             </Stack>
