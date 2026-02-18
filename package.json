@@ -20,11 +20,11 @@
   },
   "dependencies": {
     "@emotion/css": "11.13.5",
-    "@grafana/data": "12.3.1",
-    "@grafana/llm": "1.0.2",
-    "@grafana/runtime": "12.3.1",
-    "@grafana/schema": "12.3.1",
-    "@grafana/ui": "12.3.1",
+    "@grafana/data": "12.3.3",
+    "@grafana/llm": "1.0.3",
+    "@grafana/runtime": "12.3.3",
+    "@grafana/schema": "12.3.3",
+    "@grafana/ui": "12.3.3",
     "@hello-pangea/dnd": "18.0.1",
     "@volkovlabs/components": "4.6.0",
     "react": "18.3.1",
@@ -33,9 +33,10 @@
     "uuid": "13.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.28.6",
+    "@babel/core": "7.29.0",
+    "@changesets/cli": "2.29.8",
     "@grafana/eslint-config": "9.0.0",
-    "@grafana/plugin-e2e": "3.1.2",
+    "@grafana/plugin-e2e": "3.3.2",
     "@grafana/tsconfig": "2.0.1",
     "@playwright/test": "1.57.0",
     "@stylistic/eslint-plugin-ts": "4.4.1",
@@ -82,6 +83,9 @@
     "webpack-livereload-plugin": "3.0.2",
     "webpack-subresource-integrity": "5.1.0",
     "webpack-virtual-modules": "0.6.2"
+  },
+  "resolutions": {
+    "react-resizable": "3.1.3"
   },
   "packageManager": "yarn@4.12.0"
 }
