@@ -1,0 +1,33 @@
+{
+    "language": "en-US",
+    "ignorePaths": [
+        ".config",
+        ".github",
+        ".yarn",
+        "dist",
+        "package.json",
+        "node_modules",
+        "provisioning",
+        "test",
+        "**/*.{test.tsx,test.ts,tests.ts}"
+    ],
+    "words": [
+        "testid",
+        "typecheck",
+        "datasource",
+        "PXJF",
+        "Volkov",
+        "autosize",
+        "dynamictext",
+        "rgba",
+        "draggabledots",
+        "mainstat",
+        "marcusolsson",
+        "draggables",
+        "volkovlabs",
+        "visualisation",
+        "subresource",
+        "pangea",
+        "uuidv4"
+    ]
+}
