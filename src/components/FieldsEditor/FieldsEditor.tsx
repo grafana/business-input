@@ -247,7 +247,7 @@ export const FieldsEditor = ({ model, onChange }: Props) => {
       }
 
       /**
-       * Сreate fields with the new order
+       * Create fields with the new order
        */
       const newFields = reorder(items, result.source.index, result.destination.index);
 
@@ -368,7 +368,11 @@ export const FieldsEditor = ({ model, onChange }: Props) => {
                                   removeField(index);
                                 }}
                               />
-                              <div {...provided.dragHandleProps} className={styles.dragIcon} onClick={(e) => e.stopPropagation()}>
+                              <div
+                                {...provided.dragHandleProps}
+                                className={styles.dragIcon}
+                                onClick={(e) => e.stopPropagation()}
+                              >
                                 <Icon title="Drag and drop to reorder" name="draggabledots" />
                               </div>
                             </Stack>
