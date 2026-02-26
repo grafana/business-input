@@ -17,7 +17,7 @@ weight: 50
 The following examples show how to use the Static data source with various native and custom Grafana panels.
 
 {{< admonition type="note" >}}
-You can use the Business Charts demo project to play with the Static Data source settings and various native and community plugins following the link [Business Charts Examples](https://echarts.volkovlabs.io). Go to Edit mode and start experimenting.
+You can use the Business Charts demo project to play with the Static Data source settings and various native and community plugins following the link [Business Charts Examples](https://grafana.com/docs/plugins/volkovlabs-echarts-panel/<PLUGINS_VERSION>/examples/). Go to Edit mode and start experimenting.
 {{< /admonition >}}
 
 | Section                            | Demonstrates                                           |
