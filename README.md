@@ -51,7 +51,7 @@ Explore detailed guides and tutorials to maximize the potential of Business Inpu
 | [Provisioning](https://grafana.com/docs/plugins/marcusolsson-static-datasource/latest/provisioning/) | Learn how to automatically provision the data source. |
 | [Variables](https://grafana.com/docs/plugins/marcusolsson-static-datasource/latest/variables/)       | Understand how to use variables for dynamic data.     |
 | [Panels](https://grafana.com/docs/plugins/marcusolsson-static-datasource/latest/panels/)             | See how to integrate with Grafana panels.             |
-| [Release Notes](https://grafana.com/docs/plugins/marcusolsson-static-datasource/latest/release/)     | Stay updated with the latest features and changes.    |
+| [Release Notes](https://grafana.com/grafana/plugins/marcusolsson-static-datasource/?tab=changelog)     | Stay updated with the latest features and changes.    |
 
 
 ## 📜 License
