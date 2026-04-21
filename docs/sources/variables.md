@@ -16,7 +16,7 @@ weight: 30
 
 The Business Input data source supports dashboard and global variables in String fields.
 
-The [Grafana Crash Course](https://volkovlabs.io/grafana/variables/) discusses three types of variables.
+The [Grafana Crash Course](https://grafana.com/docs/plugins/marcusolsson-static-datasource/<PLUGINS_VERSION>/variables/) discusses three types of variables.
 
 ## Code editor
 
