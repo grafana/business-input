@@ -27,8 +27,6 @@ The Business Input data source is a plugin for Grafana that allows storing and e
 
 You can install the Business Input data source from the [Grafana Catalog](https://grafana.com/grafana/plugins/marcusolsson-static-datasource/) or by using the Grafana command line tool.
 
-{{< youtube id="1qYzHfPXJF8" >}}
-
 To install using the command line tool, run the following command:
 
 ```sh
@@ -47,16 +45,6 @@ grafana cli plugins install marcusolsson-static-datasource
 - Use the Text Area for String inputs with more than 100 characters.
 
 {{< figure src="/media/docs/grafana/panels-visualizations/business-input/dashboard.png" class="border" alt="Display Pie Charts based on the data from the Static Data Source." >}}
-
-## Tutorial
-
-This six-minute tutorial explains what the plugin does and demonstrates how to work with its parameters. You can use the plugin for visualization panel discovery, data storage, and troubleshooting.
-
-{{< admonition type="note" >}}
-The video references the plugin using its old name.
-{{< /admonition >}}
-
-{{< youtube id="QOV8ECOUjWs" >}}
 
 ## Documentation
 
