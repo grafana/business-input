@@ -44,7 +44,7 @@ grafana cli plugins install marcusolsson-static-datasource
 
 ## 📚 Documentation
 
-Explore detailed guides and tutorials to maximize the potential of Business Input:
+Explore detailed guides to maximize the potential of Business Input:
 
 | Section  | Description                                           |
 | -------- | ----------------------------------------------------- |
