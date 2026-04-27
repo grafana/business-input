@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.1.1
+
+- Updated frontend dependencies and fixed vulnerabilities.
+
 ## 6.1.0
 
 - Preparation for react 19 update
