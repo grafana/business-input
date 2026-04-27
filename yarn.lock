@@ -11443,7 +11443,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-resizable@npm:3.1.3":
+"react-resizable@npm:^3.0.5":
   version: 3.1.3
   resolution: "react-resizable@npm:3.1.3"
   dependencies:
