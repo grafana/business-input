@@ -1,12 +1,29 @@
 # Changelog
 
-## 6.1.1
+## [Unreleased]
 
-- Updated frontend dependencies and fixed vulnerabilities.
+### Project Updates
 
-## 6.1.0
+- Fixed changelog entry formatting for versions 6.1.0 and 6.1.1.
+- Bumped version to 6.1.2.
 
-- Preparation for react 19 update
+## [6.1.1] - 2026-04-27
+
+### Security
+
+- Patched transitive dependencies with known vulnerabilities, including `uuid` and `protobufjs`.
+
+### Project Updates
+
+- Updated frontend dependencies.
+- Updated E2E tests for compatibility.
+- Updated documentation.
+
+## [6.1.0] - 2026-02-18
+
+### Project Updates
+
+- Prepared for React 19 compatibility.
 
 ## [6.0.0] - 2026-01-06
 
@@ -21,7 +38,8 @@
 ### Changed
 
 - **ESLint Configuration**: Updated linting rules and settings for better code quality and consistency. ([#104](https://github.com/VolkovLabs/business-input/pull/104))
-- **LLM Behavior & Plugin Handling**: Improved LLM functionality and added better error handling for cases when a plugin is not found. ([#106](https://github.com/VolkovLabs/business-input/pull/106))
+- **LLM Behavior & Plugin Handling**: Improved LLM functionality and added better error handling for cases when a plugin
+  is not found. ([#106](https://github.com/VolkovLabs/business-input/pull/106))
 - **E2E Tests**: Adjusted end-to-end tests to resolve compatibility issues with the Main branch. ([#107](https://github.com/VolkovLabs/business-input/pull/107))
 
 ## [5.0.0] - 2025-07-21
@@ -225,4 +243,5 @@
 ### Features & Enhancements
 
 - Updated `@grafana` dependencies from `^7.0.0` to `^7.3.0`.
-- Improved release process using the new [GitHub workflows](https://github.com/grafana/plugin-workflows) for Grafana plugins.
+- Improved release process using the new
+  [GitHub workflows](https://github.com/grafana/plugin-workflows) for Grafana plugins.
