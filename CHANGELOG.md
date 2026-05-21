@@ -6,6 +6,7 @@
 
 - Fixed changelog entry formatting for versions 6.1.0 and 6.1.1.
 - Bumped version to 6.1.2.
+- Migrated publish workflow from top-level permissions to job-scoped permissions with pre-flight changelog validation.
 
 ## [6.1.1] - 2026-04-27
 
