@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## [6.1.2] - 2026-05-21
 
 ### Project Updates
 
