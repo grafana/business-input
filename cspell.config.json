@@ -28,6 +28,7 @@
         "visualisation",
         "subresource",
         "pangea",
-        "uuidv4"
+        "uuidv4",
+        "movepane"
     ]
 }
