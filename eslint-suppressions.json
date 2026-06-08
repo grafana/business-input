@@ -1,0 +1,12 @@
+{
+  "src/components/AutosizeCodeEditor/AutosizeCodeEditor.tsx": {
+    "react-hooks/set-state-in-effect": {
+      "count": 1
+    }
+  },
+  "src/test-utils/jest-selectors.ts": {
+    "no-redeclare": {
+      "count": 2
+    }
+  }
+}

@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Project Updates
+
+- Removed dependencies on `@volkovlabs/components` and `@volkovlabs/jest-selectors`. The previously-used components (`AutosizeCodeEditor`) and utilities (`CodeParameterItem`, `CodeParametersBuilder`) are now inlined under `src/components/AutosizeCodeEditor/` and `src/utils/code-parameters-builder.ts`. Jest selector helpers (`getJestSelectors`, `createSelector`) are inlined under `src/test-utils/jest-selectors.ts`. Pre-existing rule violations surfaced by lint after the change are captured in `eslint-suppressions.json`. Added `monaco-editor` as an explicit devDependency since the inlined `AutosizeCodeEditor` imports its types directly.
+
 ## [6.1.2] - 2026-05-21
 
 ### Project Updates

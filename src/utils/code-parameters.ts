@@ -1,7 +1,7 @@
 import { DataFrameDTO } from '@grafana/data';
 import { openai } from '@grafana/llm';
 import { CodeEditorSuggestionItemKind } from '@grafana/ui';
-import { CodeParameterItem, CodeParametersBuilder } from '@volkovlabs/components';
+import { CodeParameterItem, CodeParametersBuilder } from './code-parameters-builder';
 
 /**
  * Code Parameters
