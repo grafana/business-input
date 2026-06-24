@@ -1,6 +1,6 @@
 import { getTemplateSrv } from '@grafana/runtime';
 import { CodeEditorSuggestionItem, CodeEditorSuggestionItemKind, InlineField } from '@grafana/ui';
-import { AutosizeCodeEditor } from '@volkovlabs/components';
+import { AutosizeCodeEditor } from '../AutosizeCodeEditor';
 /**
  * Monaco
  */
