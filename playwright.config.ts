@@ -19,14 +19,21 @@ export default defineConfig<PluginOptions>({
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
-  /* Retry on CI only */
-  retries: process.env.CI ? 2 : 0,
+  /* Retry on first failure to reduce flake. */
+  retries: 1,
+  /* Run tests sequentially to avoid port/container conflicts in local and CI environments. */
+  workers: 1,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
     baseURL: process.env.GRAFANA_URL || 'http://localhost:3000',
+
+    /* Browser channel to launch (e.g. `chrome` to use a locally installed Google Chrome).
+     * Set `PLAYWRIGHT_CHANNEL=chrome` to run against system Chrome and skip the bundled Chromium download.
+     * Left undefined in CI/Docker so the bundled Chromium is used. See https://playwright.dev/docs/browsers#google-chrome--microsoft-edge. */
+    channel: process.env.PLAYWRIGHT_CHANNEL || undefined,
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
