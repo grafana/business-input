@@ -3,9 +3,9 @@
     "ignorePaths": [
         ".config",
         ".github",
-        ".yarn",
         "dist",
         "package.json",
+        "package-lock.json",
         "node_modules",
         "provisioning",
         "test",
