@@ -4,6 +4,9 @@ FROM mcr.microsoft.com/playwright:v1.61.1-noble@sha256:5b8f294aff9041b7191c34a4b
 # Set the work directory for the application
 WORKDIR /app
 
+# Playwright image ships npm 11.13.0; engines require >=11.16.0 with engine-strict.
+RUN npm install -g npm@11.18.0 --ignore-scripts
+
 # COPY the needed files to the app folder in Docker image
 COPY .. .
 
