@@ -8,7 +8,7 @@ WORKDIR /app
 COPY .. .
 
 # Install the dependencies in Node environment
-RUN yarn install
+RUN npm ci
 
 # Run tests
-CMD ["yarn", "e2e"]
+CMD ["npm", "run", "e2e"]
