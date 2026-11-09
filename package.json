@@ -34,11 +34,11 @@
     "uuid": "14.0.1"
   },
   "devDependencies": {
-    "@babel/core": "7.29.6",
-    "@changesets/cli": "2.31.0",
+    "@babel/core": "8.0.7",
+    "@changesets/cli": "3.0.3",
     "@grafana/eslint-config": "9.0.0",
-    "@grafana/plugin-e2e": "3.9.2",
-    "@grafana/sign-plugin": "3.3.0",
+    "@grafana/plugin-e2e": "4.0.0",
+    "@grafana/sign-plugin": "4.0.0",
     "@grafana/tsconfig": "2.2.0",
     "@openfeature/core": "1.11.0",
     "@openfeature/web-sdk": "1.9.0",
